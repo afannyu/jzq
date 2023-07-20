@@ -1,0 +1,42 @@
+html,body,#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  height: 100px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  font-size: 30px;
+}
+
+.game {
+  display: flex;
+}
+
+.game-info {
+  width: 300px;
+}
+
+.game-board {
+  width: 300px;
+  margin-right: 30px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.col.winner {
+  background-color: rgb(255, 255, 0); /* 你可以根据需要设置其他样式 */
+}
